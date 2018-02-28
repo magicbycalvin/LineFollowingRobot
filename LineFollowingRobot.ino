@@ -3,7 +3,7 @@
 #include <Adafruit_MotorShield.h>
 
 #define DEBUG // Uncomment this for serial debugging
-#define DRIVE // Uncomment this to drive the motors
+#define DRIVE // Uncomment this to drive the motor
 
 #ifdef DEBUG
   #define dbPrint( x ) Serial.print( x )
